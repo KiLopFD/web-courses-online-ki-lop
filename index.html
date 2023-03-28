@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/bootstrap-5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome6/css/brands.css">
+    <link rel="stylesheet" href="./assets/fontawesome6/css/fontawesome.css">
+    <link rel="stylesheet" href="./assets/fontawesome6/css/solid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="mt-3">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container container-sm-100">
+                <div class="row w-100">
+                    <div class="col-md-2 d-xl-none d-lg-none d-md-block col-sm-2 col-2">
+                        <div class="inner-drop h-100 h-sm-50 w-100">
+                            <div class="dropdown h-100">
+                                <button class="btn btn-secondary btn-drop h-100 h-sm-50 d-block" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-regular fa-bars fs-4"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Home</a></li>
+                                    <li><a class="dropdown-item" href="#">Courses</a></li>
+                                    <li><a class="dropdown-item" href="#">Mentors</a></li>
+                                    <li><a class="dropdown-item" href="#">About</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-3 col-md-6 col-sm-5 col-3">
+                        <div class="inner-brand h-100 ">
+                            <a href="" class="fs-2 text-dark fw-bolder d-block my-auto">K-Lop</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-5 d-xl-block d-lg-block d-md-none d-sm-none d-none">
+                        <div class="inner-list h-100">
+                            <ul class="d-xl-flex d-lg-flex justify-content-around align-items-center h-100">
+                                <li class="w-100 h-100">
+                                    <a href="" class="my-3 d-inline-block text-dark fw-bold">Home</a>
+                                </li>
+                                <li class="w-100 h-100">
+                                    <a href="" class="my-3 d-inline-block text-dark fw-bold">Courses</a>
+                                </li class="w-100 h-100">
+                                <li class="w-100 h-100">
+                                    <a href="" class="my-3 d-inline-block text-dark fw-bold">Mentors</a>
+                                </li>
+                                <li class="w-100 h-100">
+                                    <a href="" class="my-3 d-inline-block text-dark fw-bold">About</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-7">
+                        <div
+                            class="inner-btn d-xl-flex d-lg-flex d-md-flex d-sm-flex d-flex justify-content-end align-items-center h-100">
+                            <button class="btn btn-sign-in my-auto" data-bs-toggle="modal"
+                                data-bs-target="#modal-register">
+                                <p class="mb-0">Sign in</p>
+                            </button>
+                            <div class="modal fade bg-wrap" id="modal-register" tabindex="-1"
+                                aria-labelledby="modal-registerLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content modal-config">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-center w-100 text-dark fs-3"
+                                                id="modal-registerLabel">Register</h1>
+                                            <button type="button"
+                                                class="btn-close rounded-circle bg-white rounded-thumbnail"
+                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <form>
+                                                    <div class="mb-2">
+                                                        <label for="formInputPassword1" class="form-label">Full
+                                                            Name</label>
+                                                        <input type="password" class="form-control"
+                                                            id="formInputPassword1">
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <label for="formInputPassword1" class="form-label">Your
+                                                            Phone</label>
+                                                        <input type="password" class="form-control"
+                                                            id="formInputPassword1">
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <label for="formInputEmail1" class="form-label">Email
+                                                            address</label>
+                                                        <input type="email" class="form-control" id="formInputEmail1"
+                                                            aria-describedby="emailHelp">
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <label for="formInputPassword1"
+                                                            class="form-label">Password</label>
+                                                        <input type="password" class="form-control"
+                                                            id="formInputPassword1">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer px-5">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary w-50">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-register w-sm-50" data-bs-toggle="modal"
+                                data-bs-target="#modal-register">
+                                <p class="mb-0 text-white">Register</p>
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade bg-wrap" id="modal-register" tabindex="-1"
+                                aria-labelledby="modal-registerLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content modal-config">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-center w-100 text-dark fs-3"
+                                                id="modal-registerLabel">Register</h1>
+                                            <button type="button"
+                                                class="btn-close rounded-circle bg-white rounded-thumbnail"
+                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <form>
+                                                    <div class="mb-2">
+                                                        <label for="formInputPassword1" class="form-label">Full
+                                                            Name</label>
+                                                        <input type="password" class="form-control"
+                                                            id="formInputPassword1">
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <label for="formInputPassword1" class="form-label">Your
+                                                            Phone</label>
+                                                        <input type="password" class="form-control"
+                                                            id="formInputPassword1">
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <label for="formInputEmail1" class="form-label">Email
+                                                            address</label>
+                                                        <input type="email" class="form-control" id="formInputEmail1"
+                                                            aria-describedby="emailHelp">
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <label for="formInputPassword1"
+                                                            class="form-label">Password</label>
+                                                        <input type="password" class="form-control"
+                                                            id="formInputPassword1">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer px-5">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary w-50">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <script src="./assets/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

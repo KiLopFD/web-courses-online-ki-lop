@@ -1,0 +1,23 @@
+/* Global Varible */
+:root{
+    --bg-body: #FAFAFC;
+    --color-text: #B3B3B5;
+    --color-btn-cta: #4540E1;
+    --bg-secondary: #F1F1FC;
+    --bg-slight: #EBEEF9;
+}
+
+body{
+    background-color: var(--bg-body);
+    color: var(--color-text);
+}
+p{
+    color: var(--color-text);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--color-text);
+}

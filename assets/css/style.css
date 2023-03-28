@@ -1,0 +1,45 @@
+/* Header CSS */
+header .bag-height {
+    height: 70px;
+    border-radius: 30px;
+    width: 75%;
+}
+
+header .btn {
+    height: 42px;
+}
+header .btn:focus{
+    border: none;
+}
+header .btn-register {
+    background-color: var(--color-btn-cta);
+    width: 40%;
+}
+
+header .btn-drop {
+    background-color: var(--color-btn-cta);
+}
+
+header .btn.btn-drop:focus {
+    background-color: var(--bg-secondary);
+    border: 2px solid var(--color-btn-cta);
+    color: #333;
+    box-shadow: 0 0 0 0.25rem rgba(169, 174, 179, 0.5);
+}
+
+header .dropdown-menu {
+    background-color: var(--bg-secondary);
+}
+
+header .dropdown-item:hover {
+    background-color: antiquewhite;
+}
+
+/* Model Config CSS */
+header .modal-config {
+    background-image: linear-gradient(135deg, #EE9CA7 10%, #FFDDE1 100%);
+    color: #333;
+}
+header .bg-wrap {
+    background-image: linear-gradient(135deg, #43CBFF 10%, #9708CC 100%);
+}
