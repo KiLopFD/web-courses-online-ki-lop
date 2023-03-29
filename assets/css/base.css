@@ -1,15 +1,18 @@
 /* Global Varible */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700&display=swap');
 :root{
     --bg-body: #FAFAFC;
-    --color-text: #B3B3B5;
+    --color-text: #8a8a8a;
     --color-btn-cta: #4540E1;
     --bg-secondary: #F1F1FC;
     --bg-slight: #EBEEF9;
+    --font-open-sans: 'Open Sans', sans-serif;
 }
 
 body{
     background-color: var(--bg-body);
     color: var(--color-text);
+    font-family: var(--font-open-sans);
 }
 p{
     color: var(--color-text);

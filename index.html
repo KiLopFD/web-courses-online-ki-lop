@@ -15,12 +15,12 @@
 </head>
 
 <body>
-    <header class="mt-3">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container container-sm-100">
+    <header class="">
+        <nav class="navbar navbar-expand-lg pt-0">
+            <div class="container container-sm-100 container-md-100">
                 <div class="row w-100">
                     <div class="col-md-2 d-xl-none d-lg-none d-md-block col-sm-2 col-2">
-                        <div class="inner-drop h-100 h-sm-50 w-100">
+                        <div class="inner-drop h-100 h-sm-50 w-100 pt-2">
                             <div class="dropdown h-100">
                                 <button class="btn btn-secondary btn-drop h-100 h-sm-50 d-block" type="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,43 +35,43 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-3 col-md-6 col-sm-5 col-3">
-                        <div class="inner-brand h-100 ">
+                    <div class="col-xl-5 col-lg-3 col-md-6 col-sm-5 col-3">
+                        <div class="inner-brand h-100 py-lg-1 py-2">
                             <a href="" class="fs-2 text-dark fw-bolder d-block my-auto">K-Lop</a>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-5 d-xl-block d-lg-block d-md-none d-sm-none d-none">
+                    <div class="col-xl-4 col-lg-6 d-xl-block d-lg-block d-md-none d-sm-none d-none">
                         <div class="inner-list h-100">
-                            <ul class="d-xl-flex d-lg-flex justify-content-around align-items-center h-100">
-                                <li class="w-100 h-100">
-                                    <a href="" class="my-3 d-inline-block text-dark fw-bold">Home</a>
+                            <ul
+                                class="d-xl-flex d-lg-flex justify-content-around align-items-center h-100 py-lg-3 py-xl-0">
+                                <li class="w-100 h-100 text-center">
+                                    <a href="" class="d-inline-block text-dark fw-bold my-xl-4 my-lg-2">Home</a>
                                 </li>
-                                <li class="w-100 h-100">
-                                    <a href="" class="my-3 d-inline-block text-dark fw-bold">Courses</a>
+                                <li class="w-100 h-100 text-center">
+                                    <a href="" class="d-inline-block text-dark fw-bold my-xl-4 my-lg-2">Courses</a>
                                 </li class="w-100 h-100">
-                                <li class="w-100 h-100">
-                                    <a href="" class="my-3 d-inline-block text-dark fw-bold">Mentors</a>
+                                <li class="w-100 h-100 text-center">
+                                    <a href="" class="d-inline-block text-dark fw-bold my-xl-4 my-lg-2">Mentors</a>
                                 </li>
-                                <li class="w-100 h-100">
-                                    <a href="" class="my-3 d-inline-block text-dark fw-bold">About</a>
+                                <li class="w-100 h-100 text-center">
+                                    <a href="" class="d-inline-block text-dark fw-bold my-xl-4 my-lg-2">About</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-7">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5 col-7">
                         <div
-                            class="inner-btn d-xl-flex d-lg-flex d-md-flex d-sm-flex d-flex justify-content-end align-items-center h-100">
-                            <button class="btn btn-sign-in my-auto" data-bs-toggle="modal"
-                                data-bs-target="#modal-register">
-                                <p class="mb-0">Sign in</p>
+                            class="inner-btn d-xl-flex d-lg-flex d-md-flex d-sm-flex d-flex justify-content-end h-100 pt-3">
+                            <button class="btn btn-sign-in" data-bs-toggle="modal" data-bs-target="#modal-sign-in">
+                                <p class="mb-0 color-btn-sign-in fw-bold">Sign in</p>
                             </button>
-                            <div class="modal fade bg-wrap" id="modal-register" tabindex="-1"
-                                aria-labelledby="modal-registerLabel" aria-hidden="true">
+                            <div class="modal fade bg-wrap" id="modal-sign-in" tabindex="-1"
+                                aria-labelledby="modal-sign-inLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content modal-config">
                                         <div class="modal-header">
                                             <h1 class="modal-title fs-5 text-center w-100 text-dark fs-3"
-                                                id="modal-registerLabel">Register</h1>
+                                                id="modal-sign-inLabel">Welcome to my page</h1>
                                             <button type="button"
                                                 class="btn-close rounded-circle bg-white rounded-thumbnail"
                                                 data-bs-dismiss="modal" aria-label="Close"></button>
@@ -79,18 +79,6 @@
                                         <div class="modal-body">
                                             <div class="container-fluid">
                                                 <form>
-                                                    <div class="mb-2">
-                                                        <label for="formInputPassword1" class="form-label">Full
-                                                            Name</label>
-                                                        <input type="password" class="form-control"
-                                                            id="formInputPassword1">
-                                                    </div>
-                                                    <div class="mb-2">
-                                                        <label for="formInputPassword1" class="form-label">Your
-                                                            Phone</label>
-                                                        <input type="password" class="form-control"
-                                                            id="formInputPassword1">
-                                                    </div>
                                                     <div class="mb-2">
                                                         <label for="formInputEmail1" class="form-label">Email
                                                             address</label>
@@ -109,14 +97,15 @@
                                         <div class="modal-footer px-5">
                                             <button type="button" class="btn btn-secondary"
                                                 data-bs-dismiss="modal">Close</button>
-                                            <button type="submit" class="btn btn-primary w-50">Submit</button>
+                                            <button type="submit" class="btn btn-primary w-50">Sign in</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <button class="btn btn-register w-sm-50" data-bs-toggle="modal"
+                            <!-- Button Sign up -->
+                            <button class="btn btn-register w-50" data-bs-toggle="modal"
                                 data-bs-target="#modal-register">
-                                <p class="mb-0 text-white">Register</p>
+                                <p class="mb-0 text-white">Sign up</p>
                             </button>
                             <!-- Modal -->
                             <div class="modal fade bg-wrap" id="modal-register" tabindex="-1"
@@ -125,7 +114,7 @@
                                     <div class="modal-content modal-config">
                                         <div class="modal-header">
                                             <h1 class="modal-title fs-5 text-center w-100 text-dark fs-3"
-                                                id="modal-registerLabel">Register</h1>
+                                                id="modal-registerLabel">Welcome to my page</h1>
                                             <button type="button"
                                                 class="btn-close rounded-circle bg-white rounded-thumbnail"
                                                 data-bs-dismiss="modal" aria-label="Close"></button>
@@ -163,7 +152,7 @@
                                         <div class="modal-footer px-5">
                                             <button type="button" class="btn btn-secondary"
                                                 data-bs-dismiss="modal">Close</button>
-                                            <button type="submit" class="btn btn-primary w-50">Submit</button>
+                                            <button type="submit" class="btn btn-primary w-50">Sign up</button>
                                         </div>
                                     </div>
                                 </div>
@@ -175,6 +164,78 @@
             </div>
         </nav>
     </header>
+    <!-- End Header -->
+    <main>
+        <section class="sec-1">
+            <div class="container py-xl-5 py-lg-5 py-3">
+                <div class="row">
+                    <div class="col-xl-6 col-sm-12">
+                        <div class="inner-wrap">
+                            <div class="inner-content mx-auto text-sm-center text-xl-start text-lg-start text-md-start">
+                                <p class="inner-title text-dark fw-normal w-100 fw-bold d-block">Getting <span
+                                        class="word-special">Quality</span> Education Is Now More <span
+                                        class="word-special">Easy</span></p>
+                                <p class="inner-desc">Provides you width the lastest online learning system and material
+                                    that help your knowledge growing.</p>
+                            </div>
+
+                            <div class="inner-btn btn-group w-100 justify-content-sm-around justify-content-lg-start justify-content-md-start">
+                                <div class="wrap-btn w"><button class="btn btn-custom w-100 text-white h-100 btn-1">Get
+                                        Started</button></div>
+                                <div class="wrap-btn w"><button class="btn btn-custom w-100 h-100 btn-2">Get Free
+                                        Trial</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 mt-xl-0 mt-lg-5 mt-4">
+                        <div class="inner-img h-100 px-xl-5 px-3">
+                            <img src="./assets/images/sec-1.jpg" alt=""
+                                class="img-fluid rounded-pill my-xl-4 my-0 d-inline-block h-75 w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec-2">
+            <div class="container bg-secondary rounded-3">
+                <div class="row py-4">
+                    <div class="col-xl-4">
+                        <div class="inner-item-1 d-flex justify-content-start">
+                            <div class="inner-img w-50 text-center">
+                                <img src="./assets/images/sec-1.jpg" alt="" class="img-fluid w-75 rounded-3">
+                            </div>
+                            <div class="inner-content">
+                                <p class="inner-num">10k+</p>
+                                <p class="inner-desc">TOTAL COURSES</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="inner-item-1 d-flex justify-content-around">
+                            <div class="inner-img w-50 text-end">
+                                <img src="./assets/images/sec-1.jpg" alt="" class="img-fluid w-75 rounded-3">
+                            </div>
+                            <div class="inner-content">
+                                <p class="inner-num">10k+</p>
+                                <p class="inner-desc">TOTAL COURSES</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="inner-item-1 d-flex justify-content-around">
+                            <div class="inner-img w-50 text-end">
+                                <img src="./assets/images/sec-1.jpg" alt="" class="img-fluid w-75 rounded-3">
+                            </div>
+                            <div class="inner-content">
+                                <p class="inner-num">10k+</p>
+                                <p class="inner-desc">TOTAL COURSES</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="./assets/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 </body>
 

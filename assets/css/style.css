@@ -7,9 +7,13 @@ header .bag-height {
 
 header .btn {
     height: 42px;
+    font-size: medium;
 }
 header .btn:focus{
     border: none;
+}
+header .color-btn-sign-in{
+    color: var(--color-btn-cta);
 }
 header .btn-register {
     background-color: var(--color-btn-cta);
@@ -42,4 +46,29 @@ header .modal-config {
 }
 header .bg-wrap {
     background-image: linear-gradient(135deg, #43CBFF 10%, #9708CC 100%);
+}
+
+/* Main */
+/* Section-1 */
+.sec-1{
+    height: auto;
+}
+.sec-1 .inner-title{
+    font-size: 55px;
+    font-weight: 500;
+}
+.sec-1 .wrap-btn{
+    padding-right: 30px;
+    width: 40%;
+}
+.sec-1 .inner-btn{
+    height: 40px;
+}
+.sec-1 .btn-1{
+    background-color: var(--color-btn-cta);
+}
+.sec-1 .btn-2{
+    color: #845ae5;
+    background-color: #EFEEF3;
+    font-weight: 700;
 }
