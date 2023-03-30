@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="./assets/fontawesome6/css/brands.css">
     <link rel="stylesheet" href="./assets/fontawesome6/css/fontawesome.css">
     <link rel="stylesheet" href="./assets/fontawesome6/css/solid.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header class="h-auto w-auto">
+    <header class="h-auto w-auto wow bounceInDown" data-wow-duration="2s">
         <nav class="navbar navbar-expand-lg pt-0">
             <div class="container container-sm-100 container-md-100">
                 <div class="row w-100">
@@ -71,7 +72,7 @@
                                 data-bs-target="#modal-register">
                                 <p class="mb-0 text-white">Sign up</p>
                             </button>
-                            
+
                         </div>
                     </div>
 
@@ -120,7 +121,8 @@
                 <div class="modal-dialog position-absolute pos-custom">
                     <div class="modal-content modal-config">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5 text-center w-75 text-dark fs-3" id="modal-registerLabel">Welcome to my
+                            <h1 class="modal-title fs-5 text-center w-75 text-dark fs-3" id="modal-registerLabel">
+                                Welcome to my
                                 page</h1>
                             <button type="button" class="btn-close rounded-circle bg-white rounded-thumbnail mx-auto"
                                 data-bs-dismiss="modal" aria-label="Close"></button>
@@ -141,7 +143,8 @@
                                     <div class="mb-2">
                                         <label for="formInputEmail1" class="form-label">Email
                                             address</label>
-                                        <input type="email" class="form-control" id="formInputEmail1" aria-describedby="emailHelp">
+                                        <input type="email" class="form-control" id="formInputEmail1"
+                                            aria-describedby="emailHelp">
                                     </div>
                                     <div class="mb-2">
                                         <label for="formInputPassword1" class="form-label">Password</label>
@@ -161,10 +164,10 @@
     </header>
     <!-- End Header -->
     <main>
-        <section class="sec-1">
+        <section class="sec-1 my-5">
             <div class="container py-xl-5 py-lg-5 py-3">
                 <div class="row">
-                    <div class="col-xl-6 col-sm-12">
+                    <div class="col-xl-6 col-sm-12 wow slideInLeft" data-wow-duration="2s">
                         <div class="inner-wrap">
                             <div class="inner-content mx-auto text-sm-center text-xl-start text-lg-start text-md-start">
                                 <p class="inner-title text-dark fw-normal w-100 fw-bold d-block">Getting <span
@@ -183,7 +186,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 mt-xl-0 mt-lg-5 mt-4">
+                    <div class="col-xl-6 mt-xl-0 mt-lg-5 mt-4 wow slideInRight" data-wow-duration="2s">
                         <div class="inner-img h-100 px-xl-5 px-3">
                             <img src="./assets/images/sec-1.jpg" alt=""
                                 class="img-fluid rounded-pill my-xl-4 my-0 d-inline-block h-75 w-100">
@@ -192,47 +195,89 @@
                 </div>
             </div>
         </section>
-        <section class="sec-2">
-            <div class="container bg-secondary rounded-3">
+        <section class="sec-2 my-5">
+            <div class="container bg-wrap rounded-3">
                 <div class="row py-4">
                     <div class="col-xl-4">
-                        <div class="inner-item-1 d-flex justify-content-start">
+                        <div
+                            class="inner-item-1 d-flex justify-content-xl-start justify-content-lg-center justify-content-md-center justify-content-center">
                             <div class="inner-img w-50 text-center">
                                 <img src="./assets/images/sec-1.jpg" alt="" class="img-fluid w-75 rounded-3">
                             </div>
                             <div class="inner-content">
-                                <p class="inner-num">10k+</p>
-                                <p class="inner-desc">TOTAL COURSES</p>
+                                <p class="inner-num fs-1 fw-bold color__num">10k+</p>
+                                <p class="inner-desc fw-normal">TOTAL COURSES</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4">
-                        <div class="inner-item-1 d-flex justify-content-around">
-                            <div class="inner-img w-50 text-end">
+                    <div class="col-xl-4 mt-xl-0 mt-5">
+                        <div class="inner-item-1 d-flex justify-content-center">
+                            <div class="inner-img w-50 text-center">
                                 <img src="./assets/images/sec-1.jpg" alt="" class="img-fluid w-75 rounded-3">
                             </div>
                             <div class="inner-content">
-                                <p class="inner-num">10k+</p>
-                                <p class="inner-desc">TOTAL COURSES</p>
+                                <p class="inner-num fs-1 fw-bold color__num">10k+</p>
+                                <p class="inner-desc fw-normal">TOTAL COURSES</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4">
-                        <div class="inner-item-1 d-flex justify-content-around">
-                            <div class="inner-img w-50 text-end">
+                    <div class="col-xl-4 mt-xl-0 mt-5">
+                        <div class="inner-item-1 d-flex justify-content-center">
+                            <div class="inner-img w-50 text-center">
                                 <img src="./assets/images/sec-1.jpg" alt="" class="img-fluid w-75 rounded-3">
                             </div>
                             <div class="inner-content">
-                                <p class="inner-num">10k+</p>
-                                <p class="inner-desc">TOTAL COURSES</p>
+                                <p class="inner-num fs-1 fw-bold color__num">10k+</p>
+                                <p class="inner-desc fw-normal">TOTAL COURSES</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="sec-3  wow slideInLeft" data-wow-duration="2s">
+            <div class="container">
+                <div class="row row__first">
+                    <div class="col-xl-8 text-lg-center text-xl-start">
+                        <p class="inner-title text-dark">Explore courses by category</p>
+                        <p class="inner-desc fs-5">Browse top class course by browsing our category which will be more
+                            easy for you.</p>
+                    </div>
+                    <div class="col-xl-4 align-items-end d-flex justify-content-end justify-content-lg-center">
+                        <button class="btn btn-primary mb-3 btn__config rounded-pill">All Category</button>
+                    </div>
+                </div>
+                <div class="row row__second">
+                    <div class="col-xl-4">
+                        <div class="inner-content d-flex py-3">
+                            <div class="inner-wrap w-50 px-3 py-2">
+                                <div
+                                    class="inner-icon bg-dark text-white h-100 rounded-3 d-flex justify-content-center align-items-center">
+                                    <div class="bd-wrap position-relative w-50 h-50">
+                                        <i class="fa-solid fa-pen fs-1 d-block position-absolute"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="inner-text">
+                                <p class="inner-title">Design & Development</p>
+                                <p class="inner-desc">250+ courses available</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4"></div>
+                    <div class="col-xl-4"></div>
+                </div>
+            </div>
+        </section>
     </main>
     <script src="./assets/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/effect.js">
+    </script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>

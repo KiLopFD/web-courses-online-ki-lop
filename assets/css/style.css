@@ -85,3 +85,31 @@ header .pos-custom{
     background-color: #EFEEF3;
     font-weight: 700;
 }
+/* Section 2 CSS */
+.sec-2 .bg-wrap{
+    background-color: #F1F1FC;
+}
+.sec-2 .color__num{
+    color:var(--color-btn-cta);
+}
+
+/* Section 3 CSS */
+.sec-3{
+    margin: 150px 0;
+}
+.sec-3 .row__first .inner-title{
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+.sec-3 .row__first .btn__config{
+    width: 34%;
+    height: 50px;
+}
+.sec-3 .row__second .inner-title
+{
+    font-size: 2rem;
+}
+.sec-3 .bd-wrap{
+    background: #fff;
+    border: 2px solid #43CBFF;
+}
