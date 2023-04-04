@@ -9,12 +9,15 @@ header .btn {
     height: 42px;
     font-size: medium;
 }
-header .btn:focus{
+
+header .btn:focus {
     border: none;
 }
-header .color-btn-sign-in{
+
+header .color-btn-sign-in {
     color: var(--color-btn-cta);
 }
+
 header .btn-register {
     background-color: var(--color-btn-cta);
     width: 40%;
@@ -44,17 +47,19 @@ header .modal-config {
     background-image: linear-gradient(135deg, #EE9CA7 10%, #FFDDE1 100%);
     color: #333;
 }
+
 header .bg-wrap {
     background-image: linear-gradient(135deg, #43CBFF 10%, #9708CC 100%);
 }
 
-header .top-custom{
+header .top-custom {
     top: calc(50% - 400px / 2);
     right: calc(50% - 400px / 2);
     width: 400px;
     height: 400px;
 }
-header .pos-custom{
+
+header .pos-custom {
     top: calc(40% - 200px);
     right: calc(50% - 210px);
     width: 400px;
@@ -63,53 +68,111 @@ header .pos-custom{
 
 /* Main */
 /* Section-1 */
-.sec-1{
+.sec-1 {
     height: auto;
 }
-.sec-1 .inner-title{
+
+.sec-1 .inner-title {
     font-size: 55px;
     font-weight: 500;
 }
-.sec-1 .wrap-btn{
+
+.sec-1 .wrap-btn {
     padding-right: 30px;
     width: 40%;
 }
-.sec-1 .inner-btn{
+
+.sec-1 .inner-btn {
     height: 40px;
 }
-.sec-1 .btn-1{
+
+.sec-1 .btn-1 {
     background-color: var(--color-btn-cta);
 }
-.sec-1 .btn-2{
+
+.sec-1 .btn-2 {
     color: #845ae5;
     background-color: #EFEEF3;
     font-weight: 700;
 }
+
 /* Section 2 CSS */
-.sec-2 .bg-wrap{
+.sec-2 .bg-wrap {
     background-color: #F1F1FC;
 }
-.sec-2 .color__num{
-    color:var(--color-btn-cta);
+
+.sec-2 .color__num {
+    color: var(--color-btn-cta);
 }
 
 /* Section 3 CSS */
-.sec-3{
-    margin: 150px 0;
+.sec-3 {
+    margin: 120px 0;
 }
-.sec-3 .row__first .inner-title{
+
+.sec-3 .row__first .inner-title {
     font-weight: 700;
     font-size: 2.2rem;
 }
-.sec-3 .row__first .btn__config{
+
+.sec-3 .row__first .btn__config {
     width: 34%;
     height: 50px;
 }
-.sec-3 .row__second .inner-title
-{
+
+.sec-3 .row__second .inner-title {
     font-size: 2rem;
 }
-.sec-3 .bd-wrap{
-    background: #fff;
-    border: 2px solid #43CBFF;
+
+.sec-3 .bd-wrap-sec-3 {
+    background: transparent;
+    border: 2px solid #4F9DDA;
+    border-radius: 20px;
+    z-index: 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.sec-3 .bd-wrap-sec-3 i {
+    top: calc(50% - 20px);
+    right: calc(50% - 20px);
+    color: #4F9DDA;
+}
+
+.sec-3 .inner-icon {
+    background-color: #E9F8FF;
+}
+
+/* Section 4 CSS */
+.bg-sec-4 {
+    background-color: #EBEEF9;
+    padding: 80px 0;
+}
+
+.sec-4 .row__first .inner-title {
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.sec-4 .row__first .btn__config {
+    width: 34%;
+    height: 50px;
+}
+
+.sec-4 .row__second .categories .item {
+    background-color: var(--bg-secondary);
+    margin-right: 2%;
+}
+
+.sec-4 .row__second .categories .item p {
+    color: var(--color-btn-cta);
+    font-weight: 600;
+}
+.sec-4 .row__second .info-course .row .w-cus{
+    width: calc(50% - 10px);
+}
+.sec-4 .row__second .info-course .row .bg-cus{
+    background-color: var(--bg-secondary);
 }
