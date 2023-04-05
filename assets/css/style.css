@@ -117,7 +117,7 @@ header .pos-custom {
 
 .sec-3 .row__first .btn__config {
     width: 34%;
-    height: 50px;
+    height: auto;
 }
 
 .sec-3 .row__second .inner-title {
@@ -158,7 +158,7 @@ header .pos-custom {
 
 .sec-4 .row__first .btn__config {
     width: 34%;
-    height: 50px;
+    height: auto;
 }
 
 .sec-4 .row__second .categories .item {
@@ -171,8 +171,46 @@ header .pos-custom {
     font-weight: 600;
 }
 .sec-4 .row__second .info-course .row .w-cus{
-    width: calc(50% - 10px);
+    
 }
 .sec-4 .row__second .info-course .row .bg-cus{
     background-color: var(--bg-secondary);
+}
+.sec-4 .row__second .info-course .w-icon{
+    width: 22px;
+}
+
+/* Section 5 CSS */
+.sec-5 .slider .inner-desc{
+    border-bottom: 2.5px solid var(--bg-secondary);
+}
+.sec-5 .slider .bg-icon{
+    background-color: var(--color-btn-cta);
+    color: var(--bg-body);
+    font-size: 12px;
+}
+/* Section 6 CSS */
+.sec-6 .inner-body .btn{
+    right: 0;
+}
+.sec-6 .inner-body form input,.sec-6 .inner-body form a{
+    height: 50px;
+}
+/* Footer CSS */
+footer{
+    background-color: var(--bg-slight);
+}
+footer p, footer a{
+    color: black;
+    font-weight: 500;
+}
+footer .inner-title{
+    font-weight: 700;
+}
+footer .border-cus{
+    box-shadow: 1px 1px var(--bg-secondary);
+}
+footer .second-part i{
+    background-color: var(--color-btn-cta);
+    color: var(--bg-body);
 }

@@ -5,7 +5,7 @@
     --color-text: #8a8a8a;
     --color-btn-cta: #4540E1;
     --bg-secondary: #F1F1FC;
-    --bg-slight: #EBEEF9;
+    --bg-slight: #D6DAF2;
     --font-open-sans: 'Open Sans', sans-serif;
 }
 
@@ -23,4 +23,14 @@ ul{
 a{
     text-decoration: none;
     color: var(--color-text);
+}
+.card{
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.icon-star{
+    color: #FCC306;
 }
